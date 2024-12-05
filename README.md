@@ -23,7 +23,7 @@ This will spawn the manipulator and the spherical object in the gazebo simulatio
 Then, open another terminal, connect to the same docker container and run:
    ```
    . install/setup.bash
-   ros2 run ros2_opencv ros2_opencv_node.cpp
+   ros2 run ros2_opencv ros2_opencv_node
    ```
 This will start the object detection. To see the results you can open rqt and check the /processed_image topic.
 You should see a pink circle around all the detected objects as shown in the report. 
